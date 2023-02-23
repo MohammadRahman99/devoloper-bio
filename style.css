@@ -15,7 +15,7 @@ h3 {
     color: purple;
 }
 
-section {
+.flexibalcontainer {
     display: flex;
     margin-bottom: 10px;
 }
@@ -50,4 +50,36 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.boxshadow {
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience {
+    background-image: url(images/images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#border1 {
+    border-left: solid 7px;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+
+}
+
+#border2 {
+    border-left: solid 7px;
+    border-image: linear-gradient(gray, green);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: x-small;
+}
+
+.experience h1 {
+    text-align: center;
 }
