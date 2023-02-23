@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 150px;
 }
 
 h1 {
@@ -17,6 +17,7 @@ h3 {
 
 section {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .width {
@@ -40,5 +41,13 @@ section {
 }
 
 .topbnr {
-    background-image: url();
+    background-image: url(images/developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.dream big {
+    background-image: url(images/developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
 }
